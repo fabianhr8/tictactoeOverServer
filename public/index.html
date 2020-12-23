@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Tic Tac Toe</title>
+</head>
+<body>
+
+    <div id="container">
+        <h1>Tic Tac Toe</h1>
+        <p id="turn">Player 1 turn</p>
+
+        <div id="game">
+            <div><span id="1">.</span><span id="2">.</span><span id="3">.</span></div>
+            <div><span id="4">.</span><span id="5">.</span><span id="6">.</span></div>
+            <div><span id="7">.</span><span id="8">.</span><span id="9">.</span></div>
+        </div>
+
+        <input id="turnChosen" autocomplete="off" placeholder="Choose an number between 1 and 9">
+        <button id="but">Send</button>
+
+    </div>
+    
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="client.js"></script>
+</body>
+</html>
