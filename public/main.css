@@ -1,0 +1,36 @@
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+#container{
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #DDD;
+    box-shadow: 1px 3px 5px #000;
+}
+
+#game {
+    font-size: 60px;
+    margin-bottom: 50px;
+    letter-spacing: 1em;
+    padding-left: 1em;
+}
+
+input {
+    padding: 10px 20px;
+    box-sizing: border-box;             /*So the box stays in place*/
+    border: 0;
+    background-color:lightgrey;
+    width: 100%;
+}
+
+button {
+    background-color: cornflowerblue;
+    color: #FFF;
+    font-size: 18px;
+    border: 0;
+    padding: 12px 0;
+    width: 100%;
+}
